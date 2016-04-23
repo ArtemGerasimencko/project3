@@ -38,6 +38,9 @@ int main()
     int *massUp=new int[N];
     int *massDown=new int[N];
 
+    clean(massUp);
+    clean(massDown);
+
     int a=-1;
     in>>a;
     int rigth=1;
