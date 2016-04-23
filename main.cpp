@@ -69,5 +69,7 @@ int main()
     for(int i=0;i<N;i++)
         ans=MAX(ans,massUp[i]);
     cout<<ans;
+    delete [] massUp;
+    delete [] massDown;
     return 0;
 }
